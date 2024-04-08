@@ -7,7 +7,7 @@ import "./mock";
 // // Mock API fetch
 
 describe(`login function`, () => {
-  afterEach(() => {
+  beforeEach(() => {
     jest.clearAllMocks();
   });
 
