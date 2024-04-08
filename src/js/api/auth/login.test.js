@@ -1,12 +1,8 @@
 import { login } from "./login";
 
-// Mock localStorage
+import "./mock";
 
-const localStorageMock = {
-  setItem: jest.fn(),
-  getItem: jest.fn(),
-};
-global.localStorage = localStorageMock;
+// Mock localStorage
 
 // // Mock API fetch
 
