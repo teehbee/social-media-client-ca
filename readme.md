@@ -1,3 +1,5 @@
+[![Deploy static content to Pages](https://github.com/teehbee/social-media-client-ca/actions/workflows/pages.yml/badge.svg)](https://github.com/teehbee/social-media-client-ca/actions/workflows/pages.yml)
+
 ## My submission of the course assignment for the Workflow module
 
 ### Set up project
