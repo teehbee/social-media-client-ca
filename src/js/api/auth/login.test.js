@@ -6,12 +6,12 @@ import "./mock";
 
 // // Mock API fetch
 
-describe(`login function`, () => {
+describe("login function", () => {
   beforeEach(() => {
     jest.clearAllMocks();
   });
 
-  it(`saves the token to localStorage`, async () => {
+  it("saves the token to localStorage", async () => {
     global.fetch = jest.fn().mockImplementation(() =>
       Promise.resolve({
         ok: true,
@@ -19,11 +19,11 @@ describe(`login function`, () => {
       }),
     );
 
-    await login(`notareal@email.com`, `password`);
+    await login("notareal@email.com", "password");
 
     expect(localStorage.setItem).toHaveBeenCalledWith(
-      `token`,
-      JSON.stringify(`mockToken`),
+      "token",
+      JSON.stringify("mockToken"),
     );
   });
 });

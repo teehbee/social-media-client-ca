@@ -2,14 +2,14 @@ import { logout } from "./logout";
 
 import "./mock";
 
-describe(`logout function`, () => {
+describe("logout function", () => {
   beforeEach(() => {
     jest.clearAllMocks();
   });
 
-  it(`clears token from localStorage`, async () => {
+  it("clears token from localStorage", async () => {
     await logout();
 
-    expect(localStorage.removeItem).toHaveBeenCalledWith(`token`);
+    expect(localStorage.removeItem).toHaveBeenCalledWith("token");
   });
 });
