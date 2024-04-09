@@ -1,3 +1,5 @@
+[![Automated Unit Testing](https://github.com/teehbee/social-media-client-ca/actions/workflows/unit-test.yml/badge.svg)](https://github.com/teehbee/social-media-client-ca/actions/workflows/unit-test.yml)
+
 ## My submission of the course assignment for the Workflow module
 
 ### Set up project
