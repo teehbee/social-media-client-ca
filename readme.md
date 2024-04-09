@@ -1,5 +1,3 @@
-[![Automated Unit Testing](https://github.com/teehbee/social-media-client-ca/actions/workflows/unit-test-workflow.yml/badge.svg?branch=workflow)](https://github.com/teehbee/social-media-client-ca/actions/workflows/unit-test-workflow.yml)
-
 ## My submission of the course assignment for the Workflow module
 
 ### Set up project
